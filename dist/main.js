@@ -1,0 +1,1 @@
+!function(){const e=document.createElement("h1");e.textContent="hello wwebbbpack",document.body.appendChild(e)}();

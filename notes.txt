@@ -1,0 +1,8 @@
+an unordered list
+	list item(s)
+	list item(s)
+	
+forEach item in items (querySelectorAll list-item)
+	get text
+	create box (if !isOverflow)
+	
