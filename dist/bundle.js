@@ -110,13 +110,23 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/collapse_menu.js":
+/*!******************************!*\
+  !*** ./src/collapse_menu.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Menu\": () => (/* binding */ Menu)\n/* harmony export */ });\nconst Menu = (function () {\n  const container = document.querySelector(\".menu-container\");\n  const list = document.querySelector(\".menu-list\");\n  const items = document.querySelectorAll(\".menu-items\");\n})();\n\n\n\n\n//# sourceURL=webpack://collapsing_menu/./src/collapse_menu.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nfunction test() {\n  const text = document.createElement(\"h1\");\n  text.textContent = \"hello wwebbbpack\";\n  text.classList.add(\"test\");\n  document.body.appendChild(text);\n}\n\ntest();\n\n\n//# sourceURL=webpack://collapsing_menu/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _collapse_menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./collapse_menu.js */ \"./src/collapse_menu.js\");\n\n\n\nfunction test() {\n  const text = document.createElement(\"h1\");\n  text.textContent = \"hello wwebbbpack\";\n  text.classList.add(\"test\");\n  document.body.appendChild(text);\n}\n\n_collapse_menu_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n\ntest();\n\n\n//# sourceURL=webpack://collapsing_menu/./src/index.js?");
 
 /***/ })
 

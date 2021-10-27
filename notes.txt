@@ -5,4 +5,5 @@ an unordered list
 forEach item in items (querySelectorAll list-item)
 	get text
 	create box (if !isOverflow)
+		else add to spillover container
 	
