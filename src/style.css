@@ -1,3 +1,33 @@
+html {
+  visibility: hidden;
+}
+
+body {
+  background-color: rgb(19, 54, 87);
+  color: white;
+}
+
+.visible {
+  visibility: visible;
+}
+
 .test {
-    color: red;
+  color: red;
+}
+
+.menu-container {
+  border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  overflow: hidden;
+  gap: 30px;
+}
+
+li {
+  visibility: hidden;
+  border: 1px solid black;
+  min-width: 100px;
 }
